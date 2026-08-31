@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "news": {
+      "2.7.4": {
+        "en": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "de": "Hager-ECM-Leistungsfaktor/Frequenz dekodieren und SHARKY-Anwendungsreset mit ACK abschließen",
+        "ru": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "pt": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "nl": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "fr": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "it": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "es": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "pl": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "uk": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
+        "zh-cn": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK"
+      },
       "2.7.3": {
         "en": "Reset SHARKY 775 application state after proprietary high-resolution read",
         "de": "SHARKY-775-Anwendungszustand nach proprietärem Hochauflösungs-Lesezugriff zurücksetzen",
