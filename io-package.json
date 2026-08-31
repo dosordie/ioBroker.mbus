@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "news": {
+      "2.7.2": {
+        "en": "Fix SHARKY 775 proprietary RAM response parsing",
+        "de": "Parsing der proprietären SHARKY-775-RAM-Antwort korrigiert",
+        "ru": "Fix SHARKY 775 proprietary RAM response parsing",
+        "pt": "Fix SHARKY 775 proprietary RAM response parsing",
+        "nl": "Fix SHARKY 775 proprietary RAM response parsing",
+        "fr": "Fix SHARKY 775 proprietary RAM response parsing",
+        "it": "Fix SHARKY 775 proprietary RAM response parsing",
+        "es": "Fix SHARKY 775 proprietary RAM response parsing",
+        "pl": "Fix SHARKY 775 proprietary RAM response parsing",
+        "uk": "Fix SHARKY 775 proprietary RAM response parsing",
+        "zh-cn": "Fix SHARKY 775 proprietary RAM response parsing"
+      },
       "2.7.1": {
         "en": "Add optional SHARKY 775 high-resolution energy readout and disable Sentry for the fork",
         "de": "Optionalen SHARKY-775-Hochauflösungs-Energiezähler ergänzt und Sentry für den Fork deaktiviert",
