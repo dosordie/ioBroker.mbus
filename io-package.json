@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.2",
+    "version": "2.7.3",
     "news": {
+      "2.7.3": {
+        "en": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "de": "SHARKY-775-Anwendungszustand nach proprietärem Hochauflösungs-Lesezugriff zurücksetzen",
+        "ru": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "pt": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "nl": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "fr": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "it": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "es": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "pl": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "uk": "Reset SHARKY 775 application state after proprietary high-resolution read",
+        "zh-cn": "Reset SHARKY 775 application state after proprietary high-resolution read"
+      },
       "2.7.2": {
         "en": "Fix SHARKY 775 proprietary RAM response parsing",
         "de": "Parsing der proprietären SHARKY-775-RAM-Antwort korrigiert",
