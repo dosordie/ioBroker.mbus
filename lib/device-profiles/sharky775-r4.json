@@ -1,0 +1,42 @@
+{
+  "id": "sharky775-r4",
+  "name": "Diehl Metering SHARKY 775 R4",
+  "variants": ["original-r4", "facelift2", "facelift3"],
+  "autoDetect": {
+    "manufacturers": ["DME", "HYD"]
+  },
+  "memoryRead": {
+    "command": [47, 15, 176],
+    "padding": [255, 255, 255, 255, 255],
+    "responseMarker": [15, 4],
+    "maxLength": 210
+  },
+  "values": {
+    "ZVENAKK": {
+      "address": 524,
+      "length": 8,
+      "encoding": "bcd-le"
+    },
+    "ZCEINH": {
+      "address": 4272,
+      "length": 1,
+      "mask": 14,
+      "shift": 1
+    },
+    "KOMMAE": {
+      "address": 4274,
+      "length": 1,
+      "encoding": "signed-byte"
+    },
+    "ENAKCM": {
+      "address": 4326,
+      "length": 1,
+      "mask": 15
+    }
+  },
+  "output": {
+    "state": "energy_high_resolution",
+    "enabledState": "energy_high_resolution_enabled",
+    "unit": "Wh"
+  }
+}
