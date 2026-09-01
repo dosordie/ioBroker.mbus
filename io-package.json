@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.7",
+    "version": "2.7.8",
     "news": {
+      "2.7.8": {
+        "en": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "de": "Separates Geräteintervall für den hochauflösenden SHARKY-Zählerstand ergänzt",
+        "ru": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "pt": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "nl": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "fr": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "it": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "es": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "pl": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "uk": "Add a separate per-device interval for SHARKY high-resolution meter readings",
+        "zh-cn": "Add a separate per-device interval for SHARKY high-resolution meter readings"
+      },
       "2.7.7": {
         "en": "Start per-device poll intervals only after the complete device cycle and prevent repeated queue re-arming",
         "de": "Geräte-Pollintervall erst nach vollständigem Gerätezyklus starten und wiederholtes Queue-Rearming verhindern",
@@ -167,7 +180,8 @@
     "devices": [
       {
         "id": "1",
-        "updateInterval": 3600
+        "updateInterval": 3600,
+        "sharkyHighResInterval": 0
       }
     ]
   },
