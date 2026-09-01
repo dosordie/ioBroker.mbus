@@ -1,5 +1,6 @@
 'use strict';
 
+require('./lib/individual-poll').install();
 require('./lib/sharky775-highres').install();
 require('./lib/hager-ecm').install();
 
