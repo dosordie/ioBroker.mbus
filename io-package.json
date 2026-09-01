@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.5",
+    "version": "2.7.6",
     "news": {
+      "2.7.6": {
+        "en": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "de": "Individuelles Polling standardmäßig aktivieren und State-Typen bei geänderter Zähler-Datensatzstruktur reparieren",
+        "ru": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "pt": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "nl": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "fr": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "it": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "es": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "pl": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "uk": "Default individual polling to enabled and repair state types when meter record layouts change",
+        "zh-cn": "Default individual polling to enabled and repair state types when meter record layouts change"
+      },
       "2.7.5": {
         "en": "Add runtime per-device switch between default and individual polling interval",
         "de": "Laufzeit-Umschaltung pro Gerät zwischen Standard- und individuellem Poll-Intervall ergänzt",
@@ -90,7 +103,7 @@
       "de": "Daten von Zähler-Bus (M-Bus) Geräten, wie Gas- oder Stromzähler, lesen",
       "ru": "Чтение данных с устройств Meter-Bus (M-Bus), таких как счетчики газа или электроэнергии",
       "pt": "Leia os dados dos dispositivos Meter-Bus (M-Bus) como medidores de gás ou eletricidade",
-      "nl": "Lees gegevens van Meter-Bus (M-Bus) apparaten zoals gas- of elektriciteitsmeters",
+      "nl": "Lees gegevens van Meter-Bus (M-Bus) apparaten zoals gas of elektriciteitsmeters",
       "fr": "Lire les données des appareils Meter-Bus (M-Bus) comme les compteurs de gaz ou d'électricité",
       "it": "Leggi i dati dai dispositivi Meter-Bus (M-Bus) come contatori di gas o elettricità",
       "es": "Leer datos de dispositivos Meter-Bus (M-Bus) como medidores de gas o electricidad",
