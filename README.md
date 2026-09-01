@@ -2,16 +2,6 @@
 # ioBroker.mbus
 ======================
 
-![Number of Installations (latest)](https://iobroker.live/badges/mbus-installed.svg)
-![Number of Installations (stable)](https://iobroker.live/badges/mbus-stable.svg)
-[![NPM version](https://img.shields.io/npm/v/iobroker.mbus.svg)](https://www.npmjs.com/package/iobroker.mbus)
-
-![Test and Release](https://github.com/Apollon77/ioBroker.mbus/workflows/Test%20and%20Release/badge.svg)
-[![Translation status](https://weblate.iobroker.net/widgets/adapters/-/mbus/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.mbus.svg)](https://www.npmjs.com/package/iobroker.mbus)
-
-**This adapter uses Sentry libraries to automatically report exceptions and code errors to the developers.** For more details and for information how to disable the error reporting see [Sentry-Plugin Documentation](https://github.com/ioBroker/plugin-sentry#plugin-sentry)! Sentry reporting is used starting with js-controller 3.0.
-
 This adapter for ioBroker connects to a M-Bus Master via TCP or serial to provide the status and details of connected M-Bus devices.
 
 ## Description of parameters
