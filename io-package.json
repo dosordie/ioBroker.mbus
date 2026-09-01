@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.4",
+    "version": "2.7.5",
     "news": {
+      "2.7.5": {
+        "en": "Add runtime per-device switch between default and individual polling interval",
+        "de": "Laufzeit-Umschaltung pro Gerät zwischen Standard- und individuellem Poll-Intervall ergänzt",
+        "ru": "Add runtime per-device switch between default and individual polling interval",
+        "pt": "Add runtime per-device switch between default and individual polling interval",
+        "nl": "Add runtime per-device switch between default and individual polling interval",
+        "fr": "Add runtime per-device switch between default and individual polling interval",
+        "it": "Add runtime per-device switch between default and individual polling interval",
+        "es": "Add runtime per-device switch between default and individual polling interval",
+        "pl": "Add runtime per-device switch between default and individual polling interval",
+        "uk": "Add runtime per-device switch between default and individual polling interval",
+        "zh-cn": "Add runtime per-device switch between default and individual polling interval"
+      },
       "2.7.4": {
         "en": "Decode Hager ECM power factor/frequency and finish SHARKY application reset on ACK",
         "de": "Hager-ECM-Leistungsfaktor/Frequenz dekodieren und SHARKY-Anwendungsreset mit ACK abschließen",
