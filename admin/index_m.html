@@ -47,7 +47,7 @@
 
                     if (!found) {
                         added++;
-                        devices.push({id: list.result[j], updateInterval: ''});
+                        devices.push({id: list.result[j], updateInterval: '', sharkyHighResInterval: ''});
                     }
                 }
             }
@@ -327,6 +327,7 @@
                         <tr>
                             <th data-name="id"                                class="translate">ID</th>
                             <th data-name="updateInterval" data-type="number" class="translate">Update interval (sec)</th>
+                            <th data-name="sharkyHighResInterval" data-type="number">SHARKY: genauen Zählerstand lesen alle (Sek, 0 = jeder Poll)</th>
                             <th data-buttons="delete up down"></th>
                         </tr>
                         </thead>
