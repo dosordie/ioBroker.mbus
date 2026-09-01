@@ -1,8 +1,8 @@
 'use strict';
 
 require('./lib/object-type-sync').install();
-require('./lib/individual-poll').install();
 require('./lib/sharky775-highres').install();
+require('./lib/individual-poll').install();
 require('./lib/hager-ecm').install();
 
 const startAdapter = require('./main');
