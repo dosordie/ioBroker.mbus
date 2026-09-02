@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "mbus",
-    "version": "2.7.9",
+    "version": "2.7.10",
     "news": {
+      "2.7.10": {
+        "en": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "de": "Konfigurierbare Anzeigenamen für M-Bus-Geräte ergänzt, ohne die Objekt-IDs zu ändern",
+        "ru": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "pt": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "nl": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "fr": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "it": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "es": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "pl": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "uk": "Add configurable display names for M-Bus device channels without changing object IDs",
+        "zh-cn": "Add configurable display names for M-Bus device channels without changing object IDs"
+      },
       "2.7.9": {
         "en": "Add one final fast poll when switching a device from individual to standard polling",
         "de": "Beim Wechsel von individuellem auf Standard-Polling einen letzten schnellen Poll ergänzen",
@@ -193,6 +206,7 @@
     "devices": [
       {
         "id": "1",
+        "name": "",
         "updateInterval": 3600,
         "sharkyHighResInterval": 0
       }
